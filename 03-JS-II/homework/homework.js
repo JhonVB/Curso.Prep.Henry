@@ -12,7 +12,6 @@ function obtenerMayor(x, y) {
     return x;
   }
   return y;
-  
 }
 
 function mayoriaDeEdad(edad) {
@@ -75,20 +74,19 @@ function colors(color) {
   switch(color){
     case "blue":
     return "This is blue";
-    break;
+    
 
     case "red":
     return "This is red";
-    break;
+    
 
     case "green":
     return "This is green";
-    break;
+    
     
     case "orange":
     return "This is orange";
-    break;
-
+    
     default:
     return "Color not found";
   }
@@ -240,7 +238,7 @@ function doWhile(numero) {
 
   var i=1;
   do{
-     numero = 5+numero;
+     numero += 5;
      i++;
     
   }while(i<=8);
