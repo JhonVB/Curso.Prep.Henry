@@ -188,17 +188,13 @@ function agregarMetodoCalculoDescuento(producto) {
   
     
      producto.calcularPrecioDescuento =function  () {
-      return this.precio-(this.precio*this.porcentajeDeDescuento)
+      return this.precio-(this.precio*this.porcentajeDeDescuento);
     }
 
     return producto;
 
-   
 
-  
-
-
-}
+  }
 
 // No modificar nada debajo de esta línea
 // --------------------------------
